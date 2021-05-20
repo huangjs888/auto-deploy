@@ -1,12 +1,23 @@
 {
-  "name": "deploy",
-  "version": "1.0.0",
-  "description": "Use webhook to achieve front-end automated deployment",
+  "name": "auto-deploy",
+  "version": "1.1.0",
+  "description": "Use webhook to automatically deploy front-end code",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "huangjs888",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangjs888/auto-deploy.git"
+  },
+  "keywords": [
+    "deploy"
+  ],
+  "author": "Huangjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangjs888/auto-deploy/issues"
+  },
+  "homepage": "https://github.com/huangjs888/auto-deploy#readme"
 }
